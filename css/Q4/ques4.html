@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <title> Paragraph Writing</title>
+        <link rel = "stylesheet" href="q4.css">
+        <body>
+            <div class="header" style="text-align: center;">
+                <h2> DEFINING CONCEPTS</h2>
+            </div>
+            <h3>POSITIONS</h3>
+            <h4>1. Static:</h4>
+            <p>An element with position: static; is not positioned in any special way; it is always positioned 
+            according to the normal flow of the page:</p>
+
+            <div class="static">
+            This div element has position: static;
+            </div>
+
+            <h4>2. Relative:</h4>
+            <p>An element with position: relative is positioned relative to its normal position:</p>
+
+            <div class="relative">
+             Div element with relative position
+            </div>
+
+            <h4>3. Absolute:</h4>
+            <p>An element with position: absolute is positioned relative to the nearest positioned ancestor 
+            (instead of positioned relative to the viewport, like fixed):</p>
+
+            <div class="relative">
+             This div element has position: relative;
+            <div class="absolute">This div element has position: absolute;</div>
+            <h2>Position: sticky</h2>
+
+            <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+        
+            <div class="sticky">This is sticky header</div>
+        
+            <div>
+                <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+                <p>Scroll back up to remove the stickyness.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            </div>
+        
+            <h3>DISPLAY</h3>
+            <p>
+                When we create an element to display on the page, it renders as a box & we have seen how to position those boxes on the page, but there’s more we can do with them. CSS’s Display property specifies the type of rendering box that is created from our HTML. Let’s check out some of the different display styles we can use.
+                The display property specifies if/how an element is displayed.
+        
+                Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline
+            </p>
+            <h3>Block level element</h3>
+            <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+            <p>
+                Examples of block-level elements: div,li,section etc
+            </p>
+            <div class="block"> This is block level element</div>
+            <h2>Inline element</h2>
+            <p>Element can start anywhere on an existing line. Height and width properties have no effect. Elements that are inline by default include span,input,button,img etc An inline element does not start on a new line and only takes up as much width as necessary.</p>
+            <span class="inline">This is inline element</span>
+            <h2>Override element</h2>
+            <p>
+                We can also override display value by using  As mentioned, every element has a default display value. However, you can override this.
+        
+                Changing an inline element to a block element, or vice versa, can be useful for making the page look a specific way, and still follow the web standards.
+        
+                A common example is making inline div elements for horizontal menus:
+            </p>
+        
+            <div class="override"> this is overriden div</div>
+        
+            <h2>Display none;</h2>
+            <p>Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there:</p>
+        
+            <h3>This is a visible heading</h3>
+            <h3 class="none">This is a hidden heading</h3>
+            <p>Notice that the h1 element with display: none; does not take up any space.</p>
+            <h1>3. Visibility</h1>
+        
+            <h3>This is a visible heading</h3>
+            <h3 class="hidden">This is a hidden heading</h3>
+            <p>Notice that the hidden heading still takes up space.</p>
+             
+             <h3>4. Float</h3>
+             <p>The CSS float property is a positioning property. It is used to push an element to the left or right, allowing other element to wrap around it. It is generally used with images and layouts.</p>
+             <ul>
+                 <li>none: The element does not float, (will be displayed just where it occurs in the text). This is default</li>
+                 <li>left:The element floats to the left of its container</li>
+                 <li>right:The element floats the right of its container</li>
+                 
+        
+                 <h3>Example</h3>
+        
+                 <p>In this example, the image will float to the left in the text, and the text in the paragraph will wrap around the image.</p>
+        
+                 <p>
+                     <img src="https://cdn.britannica.com/56/177656-050-04529521/Glass-House-conservatory-building-Lalbagh-Botanical-Garden.jpg" width="300" height="200" />
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+                 </p>
+        
+             </ul>
+        </div>
+    </body>
+</html>

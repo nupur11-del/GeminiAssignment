@@ -1,0 +1,47 @@
+.one{
+    width:30%;
+    margin:auto;
+    background-color: rgb(119, 234, 243);
+    color: black;
+    border: black;
+    border-radius: 20px;
+    padding-left: 10%;
+
+}
+#dob{
+   width:120px;
+}
+
+td {
+   padding: 4px;
+ 
+}
+input {
+   margin-left: 0.5rem;
+
+   padding: 4px;
+
+}
+#city {
+   width: 10rem;
+   margin-left: 0.5rem;
+   height: 1.5rem;
+   padding: 4px;
+}
+
+h2 {
+   margin-left: 6rem;
+  
+}
+.record {
+
+   background-color: pink;
+   color: black;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   min-height: 30px;
+   min-width: 120px;
+   margin:2rem;
+}
+
