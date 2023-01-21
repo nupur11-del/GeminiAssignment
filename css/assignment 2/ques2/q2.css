@@ -1,0 +1,23 @@
+html body h1{
+    color: gold;
+}
+
+body h1{
+    color: red;
+}
+
+.fred h1{
+    color: greenyellow;
+}
+
+#simon h1{
+    color: rebeccapurple;
+}
+
+header#randy.ricky.bubbles.jullian h1{
+    color: salmon;
+}
+
+body main#simon p img{
+    color:purple;
+}

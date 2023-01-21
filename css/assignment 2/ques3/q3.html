@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <title> Paragraph Writing</title>
+        <link rel = "stylesheet" href="ques3.css">
+        <body>  
+            <h3> [~]: General sibling selector </h3>  
+            <p>It is the first paragraph element which will get effected.</p>  
+            <div class="class1"> div element  
+                <p> It is the paragraph under the div element </p>  
+            </div>  
+            <p>It is the paragraph element after the div</p>  
+            <p>It is the paragraph element which will also get affected</p>  
+            
+            <h3> [+]: Adjacent sibling selector</h3>  
+            <p> It is the first paragraph </p>  
+            <p> It is the second paragraph which is immediately next to the first paragraph, and it get selected. </p>  
+            <div class="class2">  div element </div>  
+                <p> This is the third paragraph which does not get affected </p>  
+                <p> This paragraph is also selected because it immediately next to third paragraph </p> 
+            </div>
+
+            <h3> [>]: Child selector</h3>  
+            <p> It is the first paragraph </p>  
+            <p> It is the second paragraph </p>  
+            <div class="class3">  
+                <h3> div element</h3>  
+                <p> This is the third paragraph which is the child of div element </p>  
+                <p> This is the fourth paragraph and also get selected because it is also the child of div element </p>  
+            </div>  
+        </body> 
+    </html> 

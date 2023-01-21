@@ -1,0 +1,19 @@
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(192, 53, 162);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+.btn {
+    transition: transform 250ms;
+  }
+  
+  .btn:hover {
+    transform: translateY(-10px);
+  }

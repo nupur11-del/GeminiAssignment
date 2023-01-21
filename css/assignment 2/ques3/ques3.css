@@ -1,0 +1,66 @@
+body{  
+ text-align: center;  
+    } 
+
+h3 ~ p{  
+ color: rgb(116, 116, 222);  
+ font-size: 25px;  
+ font-weight: bold;  
+ text-align: center;  
+    } 
+ 
+div {  
+ font-size: 32px;  
+    }  
+
+p + p{  
+    color: rgb(228, 28, 48);  
+    font-size:25px;  
+    font-weight: bold;  
+    text-align: center;  
+    }  
+        
+p {  
+    font-size: 32px;  
+    }
+
+div > p{  
+    color: rgb(11, 98, 247);  
+    font-size:25px;  
+    font-weight:bold;  
+    text-align:center;  
+        }  
+
+.class1{
+    margin:2rem;
+    background-color: rgb(237, 251, 116);
+   color: black;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   min-height: 30px;
+   min-width: 120px;
+}
+
+.class2{
+    margin:2rem;
+    background-color: rgb(17, 148, 230);
+   color: black;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   min-height: 30px;
+   min-width: 120px;
+
+}
+
+.class3{
+    margin:2rem;
+    background-color: rgb(251, 195, 116);
+   color: black;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   min-height: 30px;
+   min-width: 120px;
+}
